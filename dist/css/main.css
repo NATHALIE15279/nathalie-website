@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.topbar a{
+    color: black;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+.topbar-nav{
+    text-align: end;
+    padding-bottom: 16px;
+    line-height: 2;
+}
+.topbar-nav a{
+    display:inline-block;
+    margin-bottom:10px;
+    padding: 10px;
+    top:80px;
+    color:black;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.banner ul li{
+    display: flex;
+    justify-content: center;
+    bottom: 80px;
+    justify-items: center;
+    
+}
+.banner-n{
+    position: relative;
+    display:flex;
+     justify-content: center;
+     text-align: center;
+     justify-items: center;
+
+}
+
+.ban{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+.action{
+    display: inline-block;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+}
+
+.action ul{
+    display: inline-block;
+    justify-items: center;
+    
+}
+.btn button{
+    padding: 10px 20px;
+    margin: 5px;
+    border: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: rgb(0, 119, 255);
+    color:white;
+    border-radius: 10px;
+   
+}
+ul li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+.portf{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.portf-n{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.portfol{
+    display: inline-block;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center; 
+}
+.bton button{
+    padding: 10px 20px;
+    justify-content: center;
+    margin: 5px;
+    border: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: rgb(0, 119, 255);
+    color:white;
+    border-radius: 10px;
+}
+.portf-detail{
+    margin: 10px;
+    color: rgb(0, 247, 255);
+    position: relative;
+    display: flex;
+}
+.portfoli-details{
+    color: rgb(0, 247, 255);
+    margin: 10px;
+}
+.prt-det{
+    margin:10px;
+    padding: auto;
+}
+.portfolio-detail{
+margin: 10px;
+color: rgb(0, 247, 255);
+}
+.portfo{
+margin: 10px;
+
+}
+.por-det{
+    margin: 10px;
+}
+.more-detail{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 0;
+    right: 0;
+    color: rgba(255, 0, 0, 0.656);
+
+}
+.more-portfolio{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(255, 0, 0, 0.656);
+    margin: 10px;
+
+}
+.more-portfol{
+    display: flex;
+    justify-content: flex-end;
+}
+.more-portf{
+    display: flex;
+    justify-content: flex-end;
+}
+.working-process{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.worki-pro{
+    display: flex;
+    justify-content: flex-end;
+}
+.work-process{
+    display: flex;
+    justify-content:flex-end;
+}
+.work-process ul li{
+    display: inline-block;
+}
+.wo-pro{
+    display: flex;
+    justify-content:flex-end;
+}
+.wo-pro ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.Works{
+    margin: 10px;
+}
+.works-det{
+    margin: 10px;
+}
+.service-work{
+    display: flex;
+    justify-content: center;
+}
+.work-service{
+    display: flex;
+    justify-content:center;
+}
+.service-detail{
+    position: relative;
+    justify-content: space-between;
+}
+.service-detail ul li{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid;
+    padding: 3px;
+    width: 150px;
+   height: 100px;
+}
+.butn{
+    display: flex;
+    justify-content: center;
+}
+.butn button{
+    padding: 10px 20px;
+    justify-content: center;
+    margin: 5px;
+    border: 0px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    background: rgb(0, 119, 255);
+    color:white;
+    border-radius: 10px;
+}
+.portf-achiev{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.portfol-achiev{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.portfolio-langue{
+    display: flex;
+    justify-content: flex-end;
+}
+.langue-portf{
+    display: flex;
+    justify-content: flex-end;
+}
+.langue-portf ul li{
+    display:inline-block;
+    margin: 10px;
+}
+.portfolio-more{
+    margin: 10px;
+}
+.portf-more{
+    margin: 10px;
+}
+.portfolio-contact{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-contacts{
+    display: flex;
+    justify-content:flex-end;
+    text-align: center;
+}
+.portfolio-contacts ul li{
+    display:inline-block;
+    justify-content: space-between;
+
+}
+.port-contacts{
+    position: relative;
+    align-items: center;
+
+}
+.copy-port{
+    display: flex;
+    justify-items:center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+  
+
