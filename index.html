@@ -63,18 +63,23 @@
     <meta name="msapplication-TileColor" content="#2d89ef" />
     <meta name="theme-color" content="#ffffff" />
 
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="/src/css/output.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="nat-header">
+    <header class="nat-header fixed left-0 right-0 z-[999999] bg-white">
       <section class="nat-wrapper border-b border-b-gray-300">
         <div class="nat-container py-2 sm:py-3 md:py-4 z-0">
           <nav class="nat-nav flex justify-between items-center text-gray-500">
             <div>
               <a
                 href="#home"
-                class="whitespace-nowrap text-black flex justify-start items-center space-x-2 md:space-x-4"
+                class="whitespace-nowrap text-black flex justify-start items-center space-x-1 md:space-x-4"
               >
                 <span>
                   <svg
@@ -114,7 +119,7 @@
                     />
                   </svg>
                 </span>
-                <span class="font-bold"> Nathalie Kay </span>
+                <span class="font-bold"> Nathalie K. </span>
               </a>
             </div>
             <div class="md:block hidden">
@@ -137,7 +142,7 @@
               </ul>
             </div>
             <div class="md:hidden block">
-              <button class="border border-gray-200 p-2 rounded-sm">
+              <!-- <button class="border border-gray-200 p-2 rounded-sm">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -152,15 +157,21 @@
                     d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                   />
                 </svg>
-              </button>
+              </button> -->
+              <a
+                href="mailto:hello@nathaliekay.me"
+                class="nat-btn nat-btn-primary"
+              >
+                Contact Me
+              </a>
             </div>
           </nav>
         </div>
       </section>
     </header>
-    <main>
-      <section class="nat-wrapper z-0">
-        <div class="nat-container py-16 sm:py-24 z-0">
+    <main class="pt-[50px]">
+      <section class="relative z-[999] nat-wrapper">
+        <div class="nat-container py-16 sm:py-24 bg-transparent">
           <div
             class="nat-profile flex flex-col sm:flex-row justify-between items-center space-x-0 sm:space-x-8"
           >
@@ -212,7 +223,7 @@
           </div>
 
           <div
-            class="mt-16 sm:mt-24 bg-white border border-gray-200 p-4 sm:p-8 nat-shadow flex flex-col sm:flex-row sm:space-x-6 justify-between items-center"
+            class="mt-16 sm:mt-24 bg-white border border-gray-200 p-4 sm:p-8 flex flex-col sm:flex-row sm:space-x-6 justify-between items-center"
           >
             <div class="nat-web images w-[200px] hidden sm:block">
               <img
@@ -233,7 +244,7 @@
               </p>
             </div>
             <div
-              class="mt-8 sm:mt-0 sm:max-w-[220px] w-full nat-detail space-y-4 sm:space-y-6"
+              class="mt-8 sm:mt-0 sm:max-w-[250px] w-full nat-detail space-y-4 sm:space-y-6"
             >
               <div class="w-full">
                 <a
@@ -269,8 +280,11 @@
 
               <div>
                 <a
-                  href="mailto:hello@nathaliekay.me"
-                  class="w-full flex items-center justify-center nat-btn px-8 space-x-4 nat-btn-secondary whitespace-nowrap"
+                  href="/assets/pdf/Nathalie_Kayembe_CV_FR.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="Nathalie Kayembe CV"
+                  class="cursor-pointer w-full flex items-center justify-center nat-btn px-8 space-x-4 nat-btn-secondary whitespace-nowrap"
                 >
                   <svg
                     width="24"
@@ -317,7 +331,7 @@
         </div>
       </section>
       <section
-        class="-mt-48 nat-wrapper bg-[url(/assets/img/BG.png)] bg-cover bg-center"
+        class="relative z-0 -mt-48 nat-wrapper bg-[url(/assets/img/BG.png)] bg-cover bg-center"
       >
         <div class="relative nat-container py-24">
           <div
@@ -608,11 +622,34 @@
 
             <div class="bg-gray-100 px-4 lg:px-8 py-8">
               <h3 class="bg-gray-100 mb-8">LANGUAGE I CAN SPEAK</h3>
-              <ul class="grid grid-cols-2 sm:grid-cols-4">
-                <li class="text-blue-700">English</li>
-                <li class="text-violet-600">French</li>
-                <li class="text-green-800">Swahili</li>
-                <li class="text-orange-500">Lingala</li>
+              <ul class="grid grid-cols-2 sm:grid-cols-4 font-medium">
+                <li
+                  class="text-blue-700 space-x-2 flex justify-start items-center"
+                >
+                  <div class="h-2 w-4 mr-2 bg-blue-700"></div>
+                  English
+                </li>
+                <li
+                  class="text-violet-600 space-x-2 flex justify-start items-center"
+                >
+                  <div class="h-2 w-4 mr-2 bg-violet-600"></div>
+
+                  French
+                </li>
+                <li
+                  class="text-green-800 space-x-2 flex justify-start items-center"
+                >
+                  <div class="h-2 w-4 mr-2 bg-green-800"></div>
+
+                  Swahili
+                </li>
+                <li
+                  class="text-orange-500 space-x-2 flex justify-start items-center"
+                >
+                  <div class="h-2 w-4 mr-2 bg-orange-500"></div>
+
+                  Lingala
+                </li>
               </ul>
             </div>
           </div>

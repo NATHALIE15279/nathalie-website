@@ -20,7 +20,7 @@ a {
 }
 
 .nat-btn {
-  @apply px-6 py-2 sm:py-4  rounded-sm font-medium;
+  @apply px-4 sm:px-6 py-2 sm:py-4  rounded-sm font-medium;
 }
 
 .nat-btn.nat-btn-primary {
@@ -57,4 +57,8 @@ a.active {
 
 .process-box {
   @apply bg-gray-100 p-4 flex justify-start items-center space-x-4;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
 }

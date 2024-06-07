@@ -584,8 +584,8 @@ a {
 
 .nat-btn {
   border-radius: 0.125rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: 500;
@@ -593,6 +593,8 @@ a {
 
 @media (min-width: 640px) {
   .nat-btn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -665,4 +667,8 @@ a.active {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
   padding: 1rem;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
 }
