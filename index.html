@@ -102,20 +102,24 @@
     <main>
       <section class="nat-wrapper z-0">
         <div class="nat-container py-16 sm:py-24 z-0">
-          <div class="nat-profile flex justify-between items-center space-x-8">
-            <div class="w-1/2 nat-images">
+          <div
+            class="nat-profile flex flex-col sm:flex-row justify-between items-center space-x-0 sm:space-x-8"
+          >
+            <div class="w-full sm:w-1/2 nat-images">
               <img
                 src="assets/img/NA-40.jpg"
-                class="w-[480px] rounded-md"
+                class="w-full sm:w-[480px] rounded-md"
                 alt="NA"
               />
             </div>
-            <div class="w-1/2">
+            <div class="mt-8 sm:mt-0 w-full sm:w-1/2">
               <div class="nat-web text-blue-700">
                 <p>WEB DESIGNER</p>
                 <p>WEB DEVELOPER</p>
               </div>
-              <div class="my-8 nat-pro space-x-3 font-bold text-7xl">
+              <div
+                class="my-8 nat-pro space-x-3 font-bold text-4xl sm:text-7xl"
+              >
                 <h1>Hello,i'm Nathalie.</h1>
               </div>
               <div class="nat-prof flex justify-end items-center">
@@ -126,7 +130,9 @@
               </div>
 
               <div class="mt-8">
-                <ul class="flex justify-start items-center space-x-4">
+                <ul
+                  class="flex flex-col sm:flex-row justify-start items-start sm:items-center space-y-6 sm:space-y-0 sm:space-x-4"
+                >
                   <li>
                     <a
                       href="mailto:hello@nathaliekay.me"
@@ -147,9 +153,9 @@
           </div>
 
           <div
-            class="bg-white border border-gray-200 p-4 sm:p-8 nat-shadow flex space-x-6 justify-between items-center"
+            class="mt-16 sm:mt-24 bg-white border border-gray-200 p-4 sm:p-8 nat-shadow flex flex-col sm:flex-row sm:space-x-6 justify-between items-center"
           >
-            <div class="nat-web images w-[200px]">
+            <div class="nat-web images w-[200px] hidden sm:block">
               <img
                 src="assets/img/NA-40.jpg"
                 class="w-[120px] h-[120px] object-cover rounded-full"
@@ -167,7 +173,9 @@
                 beautiful and functional website.
               </p>
             </div>
-            <div class="max-w-[250px] w-full nat-detail space-y-8">
+            <div
+              class="mt-8 sm:mt-0 sm:max-w-[220px] w-full nat-detail space-y-4 sm:space-y-6"
+            >
               <div class="w-full">
                 <a
                   href="mailto:hello@nathaliekay.me"
@@ -253,7 +261,9 @@
         class="-mt-48 nat-wrapper bg-[url(/public/img/BG.png)] bg-cover bg-center"
       >
         <div class="relative nat-container py-24">
-          <div class="nat-ressourc flex justify-start space-x-8 py-0 pt-24">
+          <div
+            class="nat-ressourc flex flex-col lg:flex-row justify-start space-y-8 lg:space-y-0 lg:space-x-8 py-0 pt-24"
+          >
             <div class="nat-ressource">
               <div class="nat-ress text-blue-700 text-3xl">
                 <h2>Education</h2>
@@ -295,7 +305,7 @@
             <div class="">
               <div class="space-x-0">
                 <h7 class="text-green-600 font-bold mb-60">TOOLS I USE</h7>
-                <ul class="grid grid-cols-3 gap-4 mt-4">
+                <ul class="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
                   <li>
                     <div class="tool-box">
                       <img class="w-[60px]" src="public/img/slack.png" alt="" />
@@ -372,7 +382,7 @@
       </section>
       <section class="nat-wrapper">
         <div class="nat-container pb-16 sm:pb-24">
-          <div class="nat-process flex py-10">
+          <div class="nat-process flex flex-col sm:flex-row py-10">
             <div class="nat-work max-w-md">
               <div class="font-bold">
                 <h4>LET'S WORK TOGETHER!</h4>
@@ -386,12 +396,12 @@
               <div class="mt-4">
                 <a
                   href="mailto:hello@nathaliekay.me"
-                  class="my email text-blue-700 text-3xl font-semibold"
+                  class="my email text-blue-700 text-xl sm:text-3xl font-semibold"
                   >nathaliekay64@gmail.com</a
                 >
               </div>
             </div>
-            <div class="nat-work detail justify-end">
+            <div class="nat-work detail justify-end mt-8 lg:mt-0">
               <div class="font-bold text-4xl py-4">
                 <h5>Working process</h5>
               </div>
@@ -401,9 +411,9 @@
                   interfaces.
                 </p>
               </div>
-              <ul class="grid gap-6 grid-cols-2 mt-4">
+              <ul class="grid gap-6 grid-cols-1 sm:grid-cols-2 mt-4">
                 <li class="flex">
-                  <div class="flex process-box">
+                  <div class="flex process-box w-full">
                     <img
                       class="w-[30px]"
                       src="public/img/handshake-icon.jpg"
@@ -449,13 +459,17 @@
           <div class="text-center">
             <h1 class="font-bold text-3xl">Service I provide</h1>
             <p class="text-gray-400 py-4">
-              My passion is all about building elegant and professional<br />
+              My passion is all about building elegant and professional<br
+                class="hidden lg:block"
+              />
               user interfaces
             </p>
           </div>
           <div class="py-10">
-            <ul class="flex space-x-8">
-              <li class="w-1/4 bg-white py-20">
+            <ul
+              class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+            >
+              <li class="bg-white py-12">
                 <div>
                   <img
                     class="w-[60px] mx-auto"
@@ -465,7 +479,7 @@
                   <p class="font-bold text-center">User Interface Design</p>
                 </div>
               </li>
-              <li class="w-1/4 bg-white py-20">
+              <li class="bg-white py-12">
                 <div>
                   <img
                     class="w-[60px] mx-auto"
@@ -475,7 +489,7 @@
                   <p class="font-bold text-center">Product Marketing</p>
                 </div>
               </li>
-              <li class="w-1/4 bg-white py-20">
+              <li class="bg-white py-12">
                 <div>
                   <img
                     class="w-[60px] mx-auto"
@@ -485,7 +499,7 @@
                   <p class="font-bold text-center">Web development</p>
                 </div>
               </li>
-              <li class="w-1/4 bg-white py-20">
+              <li class="bg-white py-12">
                 <div>
                   <img
                     class="w-[60px] mx-auto"
@@ -507,8 +521,8 @@
         </div>
       </section>
       <section class="nat-wrapper">
-        <div class="nat-container flex">
-          <div class="">
+        <div class="nat-container flex flex-col lg:flex-row">
+          <div class="hidden lg:block">
             <img
               class="w-[90px] py-14 bg-gray-100"
               src="public/img/diploma b.png"
@@ -516,16 +530,16 @@
             />
           </div>
           <div class="justify-start bg-white">
-            <h1 class="font-bold px-4 py-2">
+            <h1 class="font-bold py-2">
               Site of the Years for University of<br />
               Rwanda
             </h1>
-            <p class="text-gray-400 px-4">
+            <p class="text-gray-400">
               University of Rwanda offers practical,goal-oriented education for
               undergraduate student,graduate.
             </p>
           </div>
-          <div class="justify-end px-20">
+          <div class="justify-end px-0 lg:px-20 mt-8 lg:mt-0">
             <h2 class="font-bold text-4xl">My achievements</h2>
             <p class="text-gray-400 py-4">
               Streamlined user experience with a redesigned interface,made the
@@ -533,13 +547,15 @@
               design/development of a successfull project.
             </p>
 
-            <h3 class="py-4 px-6 bg-gray-100">LANGUAGE I CAN SPEAK</h3>
-            <ul class="flex justify-between px-3 py-8 bg-gray-100">
-              <li class="text-blue-700 px-4">English</li>
-              <li class="text-violet-600">French</li>
-              <li class="text-green-800">Swahili</li>
-              <li class="text-orange-500">Lingala</li>
-            </ul>
+            <div class="bg-gray-100 px-4 lg:px-8 py-8">
+              <h3 class="bg-gray-100 mb-8">LANGUAGE I CAN SPEAK</h3>
+              <ul class="grid grid-cols-2 sm:grid-cols-4">
+                <li class="text-blue-700">English</li>
+                <li class="text-violet-600">French</li>
+                <li class="text-green-800">Swahili</li>
+                <li class="text-orange-500">Lingala</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -548,17 +564,19 @@
       >
         <div class="nat-container">
           <div class="">
-            <h1 class="font-bold text-4xl text-center">
+            <h1 class="font-bold text-3xl sm:text-4xl text-center">
               Have a project idea in mind.<br />Get in touch and let's chat!
             </h1>
           </div>
           <div class="">
             <div class="">
-              <ul class="flex justify-center space-x-8 py-20">
+              <ul
+                class="flex flex-col text-center lg:flex-row items-center justify-center lg:space-x-8 pt-20"
+              >
                 <li>
                   <div class="">
                     <img
-                      class="w-[30px] mx-4 py-5"
+                      class="w-[30px] mx-auto py-5"
                       src="public/img/send.png"
                       alt=""
                     />
@@ -566,14 +584,14 @@
                     <a
                       href="mailto:hello@nathaliekay.me"
                       class="my email text-blue-700 line-height:1rem font-bold"
-                      >nathaliekay64@gmail.com</a
+                      >hello@nathaliekay.me</a
                     >
                   </div>
                 </li>
                 <li>
-                  <div class="">
+                  <div class="mt-8 lg:mt-0">
                     <img
-                      class="w-[30px] mx-4 py-3"
+                      class="w-[30px] mx-auto py-3"
                       src="public/img/phone-icon.png"
                       alt=""
                     />

@@ -20,7 +20,7 @@ a {
 }
 
 .nat-btn {
-  @apply px-4 py-4  rounded-sm font-medium;
+  @apply px-6 py-2 sm:py-4  rounded-sm font-medium;
 }
 
 .nat-btn.nat-btn-primary {
