@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+body {
+    @apply text-center bg-black
+} */
+
+li,
+a {
+  @apply list-none no-underline;
+}
+
+.nat-wrapper {
+  @apply flex justify-center items-center;
+}
+
+.nat-container {
+  @apply max-w-6xl mx-auto w-full px-4 overflow-x-hidden overflow-y-auto;
+}
+
+.nat-btn {
+  @apply px-4 py-4  rounded-sm font-medium;
+}
+
+.nat-btn.nat-btn-primary {
+  background: linear-gradient(
+    90deg,
+    rgba(146, 73, 242, 0.12) 0%,
+    rgba(255, 95, 73, 0.12) 100%
+  );
+  @apply text-black border border-[#FF5F49];
+}
+
+.nat-btn.nat-btn-blue {
+  @apply bg-blue-600 text-white;
+}
+
+.nat-btn.nat-btn-secondary {
+  @apply bg-gray-200;
+}
+
+a.active {
+  @apply text-black font-medium;
+}
+.nat-btn.nat-btn-blue {
+  @apply bg-blue-700;
+}
+
+.nat-shadow {
+  box-shadow: 0px 48px 148px rgba(18, 19, 20, 0.08);
+}
+
+.tool-box {
+  @apply bg-white p-4 text-center flex flex-col justify-center items-center;
+}
+
+.process-box {
+  @apply bg-gray-100 p-4 flex justify-start items-center space-x-4;
+}
