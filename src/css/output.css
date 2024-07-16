@@ -576,8 +576,6 @@ a {
   margin-right: auto;
   width: 100%;
   max-width: 72rem;
-  overflow-y: auto;
-  overflow-x: hidden;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -671,4 +669,24 @@ a.active {
 
 body {
   font-family: "Satoshi", sans-serif;
+}
+
+.qestion {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.reponse {
+  display: none;
+}
+
+.active .reponse {
+  display: block;
+}
+
+.active .qestion .icon {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }

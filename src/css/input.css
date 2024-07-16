@@ -16,7 +16,7 @@ a {
 }
 
 .nat-container {
-  @apply max-w-6xl mx-auto w-full px-4 overflow-x-hidden overflow-y-auto;
+  @apply max-w-6xl mx-auto w-full px-4;
 }
 
 .nat-btn {
@@ -61,4 +61,20 @@ a.active {
 
 body {
   font-family: "Satoshi", sans-serif;
+}
+
+.qestion {
+  @apply font-semibold mb-4 text-lg;
+}
+
+.reponse {
+  @apply hidden;
+}
+
+.active .reponse {
+  @apply block;
+}
+
+.active .qestion .icon {
+  @apply rotate-180;
 }
