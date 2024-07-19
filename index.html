@@ -70,6 +70,8 @@
 
     <link rel="stylesheet" href="/src/css/output.css" />
     <script src="../src/css/tailwind.js"></script>
+
+    <script src="../src/js/main.js" defer></script>
   </head>
   <body>
     <header class="nat-header fixed left-0 right-0 z-[999999] bg-white">
@@ -141,7 +143,7 @@
                 </li>
               </ul>
             </div>
-            <div class="md:hidden block">
+            <div class="md:hidden flex justify-end items-center space-x-2">
               <!-- <button class="border border-gray-200 p-2 rounded-sm">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -162,8 +164,62 @@
                 href="mailto:hello@nathaliekay.me"
                 class="nat-btn nat-btn-primary"
               >
-                Contact Me
+                Contact
               </a>
+
+              <div
+                class="btnOpenMenu border border-gray-300 p-2"
+                id="btnOpenMenu"
+              >
+                <svg
+                  id="bars"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+                  />
+                </svg>
+
+                <svg
+                  id="cross"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 hidden"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18 18 6M6 6l12 12"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <!-- MENU MOBILE - RESPONSISE -->
+
+            <div
+              id="menuResponsive"
+              class="menuResponsive md:hidden bg-white fixed w-full top-[64px] left-0 right-0 px-4 pb-4"
+            >
+              <ul class="space-y-1 divide-y divide-gray-200">
+                <li class="pt-1">
+                  <a href="#about">Home</a>
+                </li>
+                <li class="pt-1"><a href="#about">About</a></li>
+                <li class="pt-1"><a href="#work">Work</a></li>
+                <li class="pt-1"><a href="#service">Service</a></li>
+                <li class="pt-1"><a href="#contact">Contact</a></li>
+              </ul>
             </div>
           </nav>
         </div>
